@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
 }
 
 .container {
@@ -23,14 +23,13 @@ body {
     display: flex;
     align-items: center;
     background-color: #000;
-    border-radius: 27px;
-    margin: 7px 0;
+    border-radius: 23px;
+    margin: 5px 0;
     padding: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
     position: relative;
 }
-
 .card:hover {
     background-color: #3a3a3c;
 }
@@ -52,23 +51,23 @@ body {
 }
 
 #blum-icon {
-    background-image: url('img/blum.png'); /* Replace with actual image URL or path */
+    background-image: url('img/blum.png');
 }
 
 #iceberg-icon {
-    background-image: url('img/iceberg.png'); /* Replace with actual image URL or path */
+    background-image: url('img/iceberg.png');
 }
 
 #cubes-icon {
-    background-image: url('img/cubes.png'); /* Replace with actual image URL or path */
+    background-image: url('img/cubes.png');
 }
 
 #arbuz-icon {
-    background-image: url('img/arbuz.png'); /* Replace with actual image URL or path */
+    background-image: url('img/arbuz.png');
 }
 
 #hamster-icon {
-    background-image: url('img/hamster.png'); /* Replace with actual image URL or path */
+    background-image: url('img/hamster.png');
 }
 #blum-card {
     background-image: url('img/bliin.png');
@@ -77,10 +76,10 @@ body {
     background-size: 30%;
 }
 #iceberg-card {
-    background-image: url('img/iceberg.png');
+    background-image: url('img/icebergpr.png');
     background-repeat: repeat-y;
     background-position: center;
-    background-size: 40%;
+    background-size: 70%;
 }
 #cubes-card {
     background-image: url('img/kapel.png');
@@ -89,10 +88,10 @@ body {
     background-size: 25%;
 }
 #arbuz-card {
-    background-image: url('img/arbuz.png');
+    background-image: url('img/arbuzpr.png');
     background-repeat: repeat-y;
     background-position: center;
-    background-size: 40%;
+    background-size: 70%;
 }
 #hamster-card {
     background-image: url('img/mani.png');
