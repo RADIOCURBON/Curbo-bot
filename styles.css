@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    border-radius: 27px;
+    margin: 7px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+.card:hover {
+    background-color: #3a3a3c;
+}
+
+.icon {
+    width: 88px;
+    height: 88px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: right;
+}
+
+#blum-icon {
+    background-image: url('img/blum.png'); /* Replace with actual image URL or path */
+}
+
+#iceberg-icon {
+    background-image: url('img/iceberg.png'); /* Replace with actual image URL or path */
+}
+
+#cubes-icon {
+    background-image: url('img/cubes.png'); /* Replace with actual image URL or path */
+}
+
+#arbuz-icon {
+    background-image: url('img/arbuz.png'); /* Replace with actual image URL or path */
+}
+
+#hamster-icon {
+    background-image: url('img/hamster.png'); /* Replace with actual image URL or path */
+}
+#blum-card {
+    background-image: url('img/bliin.png');
+}
+#iceberg-card {
+    background-image: url('img/iceberg.png');
+}
+#cubes-card {
+    background-image: url('img/kapel.png');
+}
+#arbuz-card {
+    background-image: url('img/arbuz.png');
+}
+#hamster-card {
+    background-image: url('img/mani.png');
+}
