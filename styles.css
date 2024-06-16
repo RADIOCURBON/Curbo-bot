@@ -12,8 +12,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    bottom: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-    width: 100%;
 }
 
 .container {
@@ -52,6 +50,7 @@ body {
     flex-grow: 1;
     text-align: right;
 }
+
 #blum-icon {
     background-image: url('img/blum.png'); /* Replace with actual image URL or path */
 }
@@ -85,4 +84,15 @@ body {
 }
 #hamster-card {
     background-image: url('img/mani.png');
+}
+
+footer {
+    background: linear-gradient(to top, rgba(0, 0, 1, 1), transparent);
+    color: white;
+    text-align: center;
+    padding: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Обеспечивает, что футер будет выше других элементов */
 }
