@@ -15,8 +15,8 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 500px;
 }
 
 .card {
@@ -72,18 +72,33 @@ body {
 }
 #blum-card {
     background-image: url('img/bliin.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 30%;
 }
 #iceberg-card {
     background-image: url('img/iceberg.png');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 40%;
 }
 #cubes-card {
     background-image: url('img/kapel.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 25%;
 }
 #arbuz-card {
     background-image: url('img/arbuz.png');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 40%;
 }
 #hamster-card {
     background-image: url('img/mani.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 60%;
 }
 
 footer {
