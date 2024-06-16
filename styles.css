@@ -50,7 +50,15 @@ body {
     flex-grow: 1;
     text-align: right;
 }
-
+footer {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 #blum-icon {
     background-image: url('img/blum.png'); /* Replace with actual image URL or path */
 }
