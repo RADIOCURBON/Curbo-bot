@@ -69,7 +69,16 @@ body {
 #hamster-icon {
     background-image: url('img/hamster.png');
 }
-#blum-card {
+#orbitonx-icon {
+    background-image: url('img/ox.png');
+}
+#fuel-icon {
+    background-image: url('img/fuel.jfif');
+}
+#cat-icon {
+    background-image: url('img/cati.jpg');
+}
+    #blum-card {
     background-image: url('img/bliin.png');
     background-repeat: repeat-x;
     background-position: center;
@@ -99,8 +108,26 @@ body {
     background-position: center;
     background-size: 60%;
 }
+#orbitonx-card {
+    background-image: url('img/oxpr.png');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 70%;
+}
 
-footer {
+#fuel-card {
+    background-image: url('img/giga.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 20%;
+}
+#cat-card {
+    background-image: url('img/catipr.png');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 70%;
+}
+    footer {
     background: linear-gradient(to top, rgba(0, 0, 1, 1), transparent);
     color: white;
     text-align: center;
