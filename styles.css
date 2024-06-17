@@ -78,7 +78,15 @@ body {
 #cat-icon {
     background-image: url('img/cati.jpg');
 }
-    #blum-card {
+#BeeTon-icon {
+    background-image: url('img/BeeTon.jpg');
+}
+#Pixelverse-icon {
+    background-image: url('img/Pixelverse.jpg');
+}
+
+
+#blum-card {
     background-image: url('img/bliin.png');
     background-repeat: repeat-x;
     background-position: center;
@@ -86,9 +94,9 @@ body {
 }
 #iceberg-card {
     background-image: url('img/icebergpr.png');
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
     background-position: center;
-    background-size: 70%;
+    background-size: 75%;
 }
 #cubes-card {
     background-image: url('img/kapel.png');
@@ -98,36 +106,51 @@ body {
 }
 #arbuz-card {
     background-image: url('img/arbuzpr.png');
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
     background-position: center;
-    background-size: 70%;
+    background-size: 100%;
 }
 #hamster-card {
     background-image: url('img/mani.png');
     background-repeat: repeat-x;
     background-position: center;
-    background-size: 60%;
+    background-size: 75%;
 }
 #orbitonx-card {
     background-image: url('img/oxpr.png');
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
     background-position: center;
-    background-size: 70%;
+    background-size: 100%;
 }
-
 #fuel-card {
     background-image: url('img/giga.png');
     background-repeat: repeat-x;
     background-position: center;
-    background-size: 20%;
+    background-size: 25%;
 }
 #cat-card {
     background-image: url('img/catipr.png');
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
     background-position: center;
-    background-size: 70%;
+    background-size: 100%;
 }
-    footer {
+#BeeTon-card {
+    background-image: url('img/BeeTonpr.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%;
+}
+#Pixelverse-card {
+    background-image: url('img/Pixelversepr.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+
+
+
+
+footer {
     background: linear-gradient(to top, rgba(0, 0, 1, 1), transparent);
     color: white;
     text-align: center;
