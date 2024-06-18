@@ -41,6 +41,18 @@ body {
     background-position: center;
     border-radius: 50%;
     margin-right: 15px;
+    border: 2px solid #ffffff;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: 0.07em;
+    background-color: #000;
+    color: #fff;
+    font-size: 26px;
+    line-height: 160%;
+    border-radius: 23px;
+    border: 2px solid #ffffff;
 }
 
 .name {
@@ -48,6 +60,7 @@ body {
     font-weight: bold;
     flex-grow: 1;
     text-align: right;
+
 }
 
 #blum-icon {
