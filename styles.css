@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+.knopki {
+    display: flex;
+}
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    border-radius: 23px;
+    margin: 5px 0;
+    padding: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+}
+.card:hover {
+    background-color: #3a3a3c;
+}
+
+.icon {
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #ffffff;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: 0.07em;
+    background-color: #000;
+    color: #fff;
+    font-size: 26px;
+    line-height: 8vw;
+    border-radius: 23px;
+    border: 2px solid #ffffff;
+}
+.knopki_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    line-height: 12vw;
+    border-radius: 23px;
+    border: 2px solid #ffffff;
+}
+.knopkii_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    line-height: 12vw;
+    border-radius: 23px;
+}
+
+.name {
+    font-size: clamp(10px, 8vw, 50px);
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: right;
+
+}
+.name-knopki {
+    font-size: clamp(6px, 6vw, 100px);
+    font-weight: bold;
+
+}
+
+#blum-icon {
+    background-image: url('img/blum.webp');
+}
+
+#iceberg-icon {
+    background-image: url('img/iceberg.webp');
+}
+
+#cubes-icon {
+    background-image: url('img/cubes.webp');
+}
+
+#arbuz-icon {
+    background-image: url('img/arbuz.webp');
+}
+
+#hamster-icon {
+    background-image: url('img/hamster.webp');
+}
+#orbitonx-icon {
+    background-image: url('img/ox.webp');
+}
+#fuel-icon {
+    background-image: url('img/fuel.webp');
+}
+#cat-icon {
+    background-image: url('img/cati.webp');
+}
+#BeeTon-icon {
+    background-image: url('img/BeeTon.webp');
+}
+#Pixelverse-icon {
+    background-image: url('img/Pixelverse.webp');
+}
+#DropHunter-icon {
+    background-image: url('img/DropHunter.webp');
+}
+#MemeFi-icon {
+    background-image: url('img/MemeFi.webp');
+}
+#Water-icon {
+    background-image: url('img/Water.webp');
+}
+#Dotcoin-icon {
+    background-image: url('img/Dotcoin.webp');
+}
+#Vertus-icon {
+    background-image: url('img/Vertus.webp');
+}
+#BullRun-icon {
+    background-image: url('img/BullRun.webp');
+}
+#Topcoin-icon {
+    background-image: url('img/Topcoin.webp');
+}
+#TONStation-icon {
+    background-image: url('img/TONStation.webp');
+}
+#Diamore-icon {
+    background-image: url('img/Diamore.webp');
+}
+#TimeFarm-icon {
+    background-image: url('img/TimeFarm.webp');
+}
+
+#lider-knopki {
+}
+
+#blum-card {
+    background-image: url('img/bliin.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%;
+}
+#iceberg-card {
+    background-image: url('img/icebergpr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#cubes-card {
+    background-image: url('img/kapel.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%;
+}
+#arbuz-card {
+    background-image: url('img/arbuzpr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%;
+}
+#hamster-card {
+    background-image: url('img/mani.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#orbitonx-card {
+    background-image: url('img/oxpr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%;
+}
+#fuel-card {
+    background-image: url('img/giga.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%;
+}
+#cat-card {
+    background-image: url('img/catipr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%;
+}
+#BeeTon-card {
+    background-image: url('img/BeeTonpr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%;
+}
+#Pixelverse-card {
+    background-image: url('img/Pixelversepr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#DropHunter-card {
+    background-image: url('img/mani.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#MemeFi-card {
+    background-image: url('img/MemeFipr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#Water-card {
+    background-image: url('img/Waterpr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#Dotcoin-card {
+    background-image: url('img/Dotcoinpr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#Vertus-card {
+    background-image: url('img/Vertuspr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#BullRun-card {
+    background-image: url('img/BullRunpr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#Topcoin-card {
+    background-image: url('img/Topcoinpr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#TONStation-card {
+    background-image: url('img/TONStationpr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#Diamore-card {
+    background-image: url('img/Diamorepr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+#TimeFarm-card {
+    background-image: url('img/TimeFarmpr.webp');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 75%;
+}
+
+
+
+footer {
+    background: linear-gradient(to top, rgba(0, 0, 1, 1), transparent);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Обеспечивает, что футер будет выше других элементов */
+}
