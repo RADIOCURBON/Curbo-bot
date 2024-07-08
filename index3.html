@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curbo Bot</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="knopki" id="lider-knopki">
+            <div class="knopki_wrapper" onclick="location.href='index2.html'">
+                <div class="name-knopki"><pre> Leaders </pre></div>
+            </div>
+            <div class="knopki_wrapper" onclick="location.href='index.html'">
+                <div class="name-knopki"><pre> Miners </pre></div>
+            </div>
+            <div class="knopkii_wrapper">
+                <div class="name-knopki"><pre> Сustom </pre></div>
+            </div>
+        </div>
+        <div class="container" id="card-container">
+            <!-- Existing cards here -->
+
+            <!-- Plus button -->
+            <div class="card_add-card" id="add-card">
+                <div class="name-plus"><pre>+</pre></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for selecting cards -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Select a Card to Add</h2>
+            <div class="modal-card" onclick="addCard('Blum')" id="blum-card">
+                <div class="icon" id="blum-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Blum </pre></div>
+                </div>
+            </div>
+            <div class="modal-card" onclick="addCard('Hamster')" id="hamster-card">
+                <div class="icon" id="hamster-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Hamster </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('BeeTon')" id="beeton-card">
+                <div class="icon" id="beeton-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> BeeTon </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Fuel')" id="fuel-card">
+                <div class="icon" id="fuel-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Fuel </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('OrbitonX')" id="orbitonx-card">
+                <div class="icon" id="orbitonx-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> OrbitonX </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Arbuz')" id="arbuz-card">
+                <div class="icon" id="arbuz-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Arbuz </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Catizen')" id="catizen-card">
+                <div class="icon" id="catizen-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Catizen </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Cubes')" id="cubes-card">
+               <div class="icon" id="cubes-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Cubes? </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Iceberg')" id="iceberg-card">
+               <div class="icon" id="iceberg-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Iceberg </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Pixelverse')" id="pixelverse-card">
+                <div class="icon" id="pixelverse-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Pixelverse </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('DropHunter')" id="drophunter-card">
+                <div class="icon" id="drophunter-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> DropHunter </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('MemeFi')" id="memefi-card">
+                <div class="icon" id="memefi-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> MemeFi </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Water')" id="water-card">
+                <div class="icon" id="water-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Water </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Dotcoin')" id="dotcoin-card">
+               <div class="icon" id="dotcoin-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Dotcoin </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Vertus')" id="vertus-card">
+                <div class="icon" id="vertus-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Vertus </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('BullRun')" id="bullrun-card">
+                <div class="icon" id="bullrun-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Bull Run </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Topcoin')" id="topcoin-card">
+                <div class="icon" id="topcoin-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Topcoin </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('TONStation')" id="tonstation-card">
+                <div class="icon" id="tonstation-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> TON Station </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('Diamore')" id="diamore-card">
+                <div class="icon" id="diamore-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Diamore </pre></div>
+                </div>
+            </div>
+
+            <div class="modal-card" onclick="addCard('TimeFarm')" id="timefarm-card">
+                <div class="icon" id="timefarm-icon"></div>
+                <div class="wrapper">
+                    <div class="name"><pre> Time Farm </pre></div>
+                </div>
+            </div>
+            <!-- Add more modal-card options as needed -->
+        </div>
+    </div>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
